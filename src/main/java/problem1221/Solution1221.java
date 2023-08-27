@@ -1,6 +1,7 @@
 package problem1221;
 
 public class Solution1221 {
+    //leetcode1221번 균형잡힌 문자열이 몇개인지 반환하는 문제 ex)RLRRL = 1, RLRRLL = 2
     public int balancedStringSplit(String s) {
         int count = 0;
         int balance = 0; // 'L'과 'R'의 균형을 유지하기 위한 변수
